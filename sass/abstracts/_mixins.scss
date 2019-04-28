@@ -1,0 +1,17 @@
+@mixin responsive($breakpoint) {
+	@if ($breakpoint < $large-desktop) {
+	    @media only screen and (max-width: $breakpoint) {
+	        @content
+	   }
+	}
+
+	@if ($breakpoint >= $large-desktop) {
+	    @media only screen and (min-width: $breakpoint) {
+	        @content
+	   }
+	}
+}
+
+@mixin shadow($h-offset, $v-offset, $blur, $opacity) {
+    box-shadow: $h-offset $v-offset $blur rgba(0, 0, 0, $opacity);
+}
