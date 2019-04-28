@@ -1,0 +1,19 @@
+.btn {
+    outline: none;
+    min-width: 10rem;
+    background-color: $color-nearblack;
+    color: $color-offwhite;
+    padding: 1rem 2rem;
+    transition: .2s ease all;
+    margin: 1rem 0 1rem 1rem;
+    
+    &:last-child{
+        margin: 1rem;
+    }
+
+    &:hover {
+        background-color: lighten($color-nearblack, 25%);
+        color: darken($color-offwhite, 10%);
+        cursor: pointer;
+    }
+}

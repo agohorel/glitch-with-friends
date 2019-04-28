@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 @import "abstracts/variables";
 @import "abstracts/mixins";
@@ -6,3 +6,8 @@
 @import "base/base";
 @import "base/animations";
 @import "base/utils";
+
+@import "components/releaseBox";
+@import "components/btn";
+
+@import "layout/page";

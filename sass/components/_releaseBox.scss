@@ -1,0 +1,55 @@
+.releaseBox {
+    background-color: darken($color-offwhite, 10%);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    @include shadow(1px, 1px, 5px, .2);
+
+    &__header{
+        font-weight: 300;
+        font-size: 5rem;
+        color: $color-darkgrey;
+        margin-bottom: 1rem;
+    }
+
+    &__img {
+        width: 50vh;
+        height: auto;
+        margin-bottom: 2rem;
+        @include shadow(1px, 1px, 5px, .2);
+    }
+
+    &__list-container {
+        float: left;
+        margin: 1rem;
+    }
+
+    &__list {
+        padding-left: 1rem;
+    }
+
+    &__list-title {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    &__list-item {
+        font-size: 2rem;
+    }
+
+    &__list-link, 
+    &__list-link:visited {
+        text-decoration: none;
+        color: $color-nearblack;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+
+    &__art-credit {
+        font-size: 1.8rem;
+    }
+}

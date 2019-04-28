@@ -1,0 +1,10 @@
+.page {
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: $color-offwhite;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
