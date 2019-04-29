@@ -83,11 +83,6 @@ button {
     height: auto;
     margin-bottom: 2rem;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); }
-  .releaseBox__list-container {
-    float: left;
-    margin: 1rem; }
-  .releaseBox__list {
-    padding-left: 1rem; }
   .releaseBox__list-title {
     font-size: 3rem;
     font-weight: 300; }
@@ -99,6 +94,7 @@ button {
     .releaseBox__list-link:hover, .releaseBox__list-link:visited:hover {
       font-weight: 700; }
   .releaseBox__art-credit {
+    margin-top: 2rem;
     font-size: 1.8rem; }
 
 .btn {

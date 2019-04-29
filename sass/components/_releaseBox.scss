@@ -21,15 +21,6 @@
         @include shadow(1px, 1px, 5px, .2);
     }
 
-    &__list-container {
-        float: left;
-        margin: 1rem;
-    }
-
-    &__list {
-        padding-left: 1rem;
-    }
-
     &__list-title {
         font-size: 3rem;
         font-weight: 300;
@@ -50,6 +41,7 @@
     }
 
     &__art-credit {
+        margin-top: 2rem;
         font-size: 1.8rem;
     }
 }
