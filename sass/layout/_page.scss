@@ -1,7 +1,9 @@
 .page {
     min-height: 100vh;
     min-width: 100%;
-    background-color: $color-offwhite;
+    background-image: linear-gradient(to bottom right, rgba($color-offwhite, 1), rgba($color-nearblack, .1)),
+                      url("../assets/img/5.jpg");
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
