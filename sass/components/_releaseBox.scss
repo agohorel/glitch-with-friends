@@ -48,6 +48,11 @@
         @include shadow(1px, 1px, 5px, .2);
     }
 
+    &__audio {
+        margin-bottom: 1rem;
+        border-radius: 0;
+    }
+
     &__list-title {
         font-size: 3rem;
         font-weight: 300;
