@@ -68,7 +68,10 @@
     }
 
     &__art-credit {
-        margin-top: 2rem;
         font-size: 1.8rem;
+
+        &:first-of-type{
+            margin-top: 2rem;
+        }
     }
 }
