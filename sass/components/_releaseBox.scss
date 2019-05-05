@@ -14,7 +14,6 @@
         font-size: 5rem;
         color: $color-darkgrey;
         margin-bottom: 1rem;
-        animation: glitchText .2s linear infinite;
 
         &::before,
         &::after {
@@ -30,14 +29,14 @@
             left: 1px;
             text-shadow: -1px 0 $color-darkgrey;
             background: darken($color-offwhite, 10%);
-            animation: glitch1 1.5s linear alternate-reverse infinite;
+            animation: glitch1 1.3s linear alternate-reverse infinite;
         }
 
         &::after {
             left: -1px;
             text-shadow: -1px 0 $color-darkgrey;
             background: darken($color-offwhite, 10%);
-            animation: glitch1 1s ease-out alternate-reverse infinite;
+            animation: glitch2 1s ease-out alternate-reverse infinite;
         }
     }
 
