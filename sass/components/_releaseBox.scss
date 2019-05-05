@@ -82,5 +82,9 @@
 
     @include responsive($phone){
         margin: 0;
+
+        &__img {
+            width: 90vw;
+        }
     }
 }
