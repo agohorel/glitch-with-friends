@@ -43,6 +43,7 @@
 
     &__img {
         width: 50vh;
+        max-width: 90vw;
         height: auto;
         margin-bottom: 2rem;
         @include shadow(1px, 1px, 5px, .2);
@@ -78,5 +79,9 @@
         &:first-of-type{
             margin-top: 2rem;
         }
+    }
+
+    @include responsive($phone){
+        margin: 0;
     }
 }
